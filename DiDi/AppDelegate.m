@@ -8,6 +8,13 @@
 
 #import "AppDelegate.h"
 
+
+#import <DIOpenSDK/DIOpenSDK.h>
+
+
+#define DiDiAppID @"didi4A4350665A335A38676A797354385742"
+#define DIDiSecret @"1aad8962ece58b52751e2477a66c5c1b"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +23,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+   
+    
+    
+    
+    [DIOpenSDK registerApp:DiDiAppID secret:DIDiSecret];
     return YES;
 }
 

@@ -15,6 +15,12 @@
 		8A8E8B551D4AF5CD0034B728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A8E8B531D4AF5CD0034B728 /* LaunchScreen.storyboard */; };
 		8A8E8B601D4AF5CD0034B728 /* DiDiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E8B5F1D4AF5CD0034B728 /* DiDiTests.m */; };
 		8A8E8B6B1D4AF5CD0034B728 /* DiDiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E8B6A1D4AF5CD0034B728 /* DiDiUITests.m */; };
+		8A8E8B791D4AFAAE0034B728 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8E8B781D4AFAAE0034B728 /* CoreGraphics.framework */; };
+		8A8E8B7B1D4AFAB50034B728 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8E8B7A1D4AFAB50034B728 /* CoreLocation.framework */; };
+		8A8E8B7D1D4AFACA0034B728 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8E8B7C1D4AFACA0034B728 /* ImageIO.framework */; };
+		8A8E8B7F1D4AFAD00034B728 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8E8B7E1D4AFAD00034B728 /* SystemConfiguration.framework */; };
+		8A8E8B831D4AFDB80034B728 /* DIOpenSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8A8E8B811D4AFDB80034B728 /* DIOpenSDK.bundle */; };
+		8A8E8B841D4AFDB80034B728 /* DIOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8E8B821D4AFDB80034B728 /* DIOpenSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		8A8E8B661D4AF5CD0034B728 /* DiDiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiDiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A8E8B6A1D4AF5CD0034B728 /* DiDiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiDiUITests.m; sourceTree = "<group>"; };
 		8A8E8B6C1D4AF5CD0034B728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A8E8B781D4AFAAE0034B728 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A8E8B7A1D4AFAB50034B728 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8A8E8B7C1D4AFACA0034B728 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		8A8E8B7E1D4AFAD00034B728 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8A8E8B811D4AFDB80034B728 /* DIOpenSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DIOpenSDK.bundle; sourceTree = "<group>"; };
+		8A8E8B821D4AFDB80034B728 /* DIOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DIOpenSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A8E8B7F1D4AFAD00034B728 /* SystemConfiguration.framework in Frameworks */,
+				8A8E8B7D1D4AFACA0034B728 /* ImageIO.framework in Frameworks */,
+				8A8E8B7B1D4AFAB50034B728 /* CoreLocation.framework in Frameworks */,
+				8A8E8B791D4AFAAE0034B728 /* CoreGraphics.framework in Frameworks */,
+				8A8E8B841D4AFDB80034B728 /* DIOpenSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,10 @@
 		8A8E8B391D4AF5CD0034B728 = {
 			isa = PBXGroup;
 			children = (
+				8A8E8B7E1D4AFAD00034B728 /* SystemConfiguration.framework */,
+				8A8E8B7C1D4AFACA0034B728 /* ImageIO.framework */,
+				8A8E8B7A1D4AFAB50034B728 /* CoreLocation.framework */,
+				8A8E8B781D4AFAAE0034B728 /* CoreGraphics.framework */,
 				8A8E8B441D4AF5CD0034B728 /* DiDi */,
 				8A8E8B5E1D4AF5CD0034B728 /* DiDiTests */,
 				8A8E8B691D4AF5CD0034B728 /* DiDiUITests */,
@@ -101,6 +122,7 @@
 		8A8E8B441D4AF5CD0034B728 /* DiDi */ = {
 			isa = PBXGroup;
 			children = (
+				8A8E8B801D4AFDB80034B728 /* DIOpenSDK_V1.1.0_0421 */,
 				8A8E8B481D4AF5CD0034B728 /* AppDelegate.h */,
 				8A8E8B491D4AF5CD0034B728 /* AppDelegate.m */,
 				8A8E8B4B1D4AF5CD0034B728 /* ViewController.h */,
@@ -138,6 +160,15 @@
 				8A8E8B6C1D4AF5CD0034B728 /* Info.plist */,
 			);
 			path = DiDiUITests;
+			sourceTree = "<group>";
+		};
+		8A8E8B801D4AFDB80034B728 /* DIOpenSDK_V1.1.0_0421 */ = {
+			isa = PBXGroup;
+			children = (
+				8A8E8B811D4AFDB80034B728 /* DIOpenSDK.bundle */,
+				8A8E8B821D4AFDB80034B728 /* DIOpenSDK.framework */,
+			);
+			path = DIOpenSDK_V1.1.0_0421;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A8E8B551D4AF5CD0034B728 /* LaunchScreen.storyboard in Resources */,
+				8A8E8B831D4AFDB80034B728 /* DIOpenSDK.bundle in Resources */,
 				8A8E8B521D4AF5CD0034B728 /* Assets.xcassets in Resources */,
 				8A8E8B501D4AF5CD0034B728 /* Main.storyboard in Resources */,
 			);
@@ -413,8 +445,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DiDi/DIOpenSDK_V1.1.0_0421",
+				);
 				INFOPLIST_FILE = DiDi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.taobaichi.DiDi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -424,8 +461,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DiDi/DIOpenSDK_V1.1.0_0421",
+				);
 				INFOPLIST_FILE = DiDi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.taobaichi.DiDi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
